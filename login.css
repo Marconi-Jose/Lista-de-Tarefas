@@ -29,8 +29,9 @@ h1 {
     align-items: center; 
 }
 
-.form .input input[type="text"],
-.form .input input[type="password"] {
+.form .input input[type="email"],
+.form .input input[type="password"],
+.form .input input[type="text"] {
     width: 100%;
     padding: 10px 10px 10px 40px;
     box-sizing: border-box;
@@ -75,4 +76,20 @@ button:hover {
 
 .register-link a:hover {
     text-decoration: underline;
+}
+.data{
+      display: flex;
+      gap: 10px;
+      flex-direction: row;
+      height: 30px;
+      padding: 10px 5px 20px 5px;
+    
+      
+}
+div.data > label{
+     padding-top: 5px;
+}
+div.data > input[type="date"]{
+    border-radius: 5px;
+    text-align: center;
 }

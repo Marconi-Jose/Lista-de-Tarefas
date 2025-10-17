@@ -29,7 +29,7 @@ if (isset($_POST['usuario']) && isset($_POST['senha'])){
             <form action="" method="post">
 
                 <div class="input">
-                    <img src="usuario.png" class="icon" alt="usuário">
+                    <img src="e-mail.png" class="icon" alt="usuário">
                     <input type="text" name ="usuario" maxlength="20" placeholder="Usuário" required>
                 </div>
 

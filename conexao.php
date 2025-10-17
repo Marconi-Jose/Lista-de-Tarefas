@@ -12,6 +12,6 @@ try {
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
     
-    die("Erro na conexão do banco de dados: " . $e->getMessage());
+    die("Erro na conexão: " . $e->getMessage());
 }
 ?>

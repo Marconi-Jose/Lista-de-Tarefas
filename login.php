@@ -20,7 +20,7 @@ if (isset($_POST['usuario']) && isset($_POST['senha'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css?v=<?php echo time(); ?>">
-    <title>Login</title>
+    <title>Document</title>
 </head>
 <body>
     <div class="conteiner">
@@ -35,7 +35,7 @@ if (isset($_POST['usuario']) && isset($_POST['senha'])){
 
                 <div class="input">
                     <img src="cadeado.png" class="icon " alt="senha">
-                    <input type="password" maxlength="20" placeholder="Senha" name= "senha" required>
+                    <input type="password" maxlength="12" placeholder="Senha" name= "senha" required>
                     <input type="checkbox">
                     
                     

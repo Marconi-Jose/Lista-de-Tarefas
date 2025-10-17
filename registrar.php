@@ -55,22 +55,23 @@ if (isset($_POST['nome']) && isset($_POST['senha']) && isset($_POST['email']) &&
             <form action="" method="post">
 
                 <div class="input">
-
+                    <img src="usuario.png" class="icon" alt="usuário">
                     <input type="text" name= "nome" placeholder = "Nome" required>
         
                 </div>
 
                 <div class="input">
-                     <input type="text" name= "sobrenome" placeholder = "sobrenome" required>
+                    <img src="usuario.png" class="icon" alt="usuário">
+                    <input type="text" name= "sobrenome" placeholder = "Sobrenome" required>
                 </div>
 
                 <div class="input">
-                    
-                    <input type="email" name ="email"  placeholder="email@email.com" required>
+                    <img src="e-mail.png" class="icon" alt="usuário">
+                    <input type="email" name ="email"  placeholder="Seu E-mail" required>
                 </div>
 
                 <div class="input">
-                    
+                    <img src="cadeado.png" class="icon " alt="senha">
                     <input type="password" maxlength="12" placeholder="Senha" name= "senha" required>
                     
                 </div>

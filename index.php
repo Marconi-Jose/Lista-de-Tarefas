@@ -55,7 +55,7 @@ if (isset($_POST['email']) && isset($_POST['senha'])){
 
                 <div class="input">
                     <img src="usuario.png" class="icon" alt="usuário">
-                    <input type="email" name ="email"  placeholder="email@email.com" required>
+                    <input type="email" name ="email"  placeholder="Seu E-mail" required>
                 </div>
 
                 <div class="input">

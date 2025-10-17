@@ -20,7 +20,7 @@ if (isset($_POST['usuario']) && isset($_POST['senha'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css?v=<?php echo time(); ?>">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
     <div class="conteiner">

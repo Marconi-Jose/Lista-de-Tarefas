@@ -87,7 +87,7 @@ if (isset($_POST['nome']) && isset($_POST['senha']) && isset($_POST['email']) &&
 
                 <div class="register-link">
 
-                     <p>Ja tem conta? ir para <a href="login.php">Login</a></p>
+                     <p>Ja tem conta? ir para <a href="index.php">Login</a></p>
 
                 </div>
 

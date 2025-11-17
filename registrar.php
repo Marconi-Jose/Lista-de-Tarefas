@@ -1,5 +1,6 @@
 <?php 
 require_once 'conexao.php';
+date_default_timezone_set('America/Sao_Paulo');
 
 
 if (isset($_POST['nome']) && isset($_POST['senha']) && isset($_POST['email']) && isset($_POST['sobrenome']) && isset($_POST['data_nascimento'])){
@@ -46,7 +47,7 @@ if (isset($_POST['nome']) && isset($_POST['senha']) && isset($_POST['email']) &&
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css?v=<?php echo time(); ?>">
-    <title>CRIAR CONTA</title>
+    <title>Registrar</title>
 </head>
 <body>
     <div class="conteiner">

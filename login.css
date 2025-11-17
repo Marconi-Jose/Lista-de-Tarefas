@@ -86,10 +86,4 @@ button:hover {
     
       
 }
-div.data > label{
-     padding-top: 5px;
-}
-div.data > input[type="date"]{
-    border-radius: 5px;
-    text-align: center;
-}
+
